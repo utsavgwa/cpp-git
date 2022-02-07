@@ -17,6 +17,8 @@ int main(){
     reverseArray(input, n);
     printArray(input, n);
 
+    delete[] input;
+
     
 }
 void reverseArray(int *input, int n){
