@@ -3,7 +3,7 @@ using namespace std;
 
 int findUnique(int *input, int n)
 {
-    for(int i = 0; i < n-1; i+=2)
+    for(int i = 0; i < n; i++)
     {
         int j=0;
         for ( ; j < n; j++)//j always gets increased when traversed through whole loop
