@@ -12,7 +12,7 @@ void SieveOfEratosthenes(int n)
 	bool prime[n + 1];
 	memset(prime, true, sizeof(prime));
 
-	for (int p = 2; p * p <= n; p++)
+	for (int p = 2; p * p <= n; p++)//p*p<=n or p<=sqrt(n);whu check repeating numbers?
 	{
 		// If prime[p] is not changed,
 		// then it is a prime
